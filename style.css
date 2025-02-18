@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     text-decoration: none;
     line-height: 1.15;
 }
@@ -53,7 +53,7 @@ header img {
     height: 60px;
 }
 
-header nav>a {
+header nav > a {
     display: flex;
     align-items: center;
     height: 100%;
@@ -65,7 +65,7 @@ header nav>a {
     font-weight: 500;
 }
 
-header nav>a:hover {
+header nav > a:hover {
     border-top: 3px solid #0065fc;
     color: #0065fc;
 }
@@ -77,13 +77,10 @@ header #register {
 
 /* MAIN */
 
-
 main {
     max-width: 1360px;
     margin: 0 auto;
 }
-
-
 
 /* SEARCH SECTION */
 
@@ -170,7 +167,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #DEEBFF;
+    background-color: #deebff;
     border-radius: 50%;
 }
 
@@ -207,9 +204,6 @@ main {
     font-size: 16px;
 }
 
-
-
-
 /* HOSTING SECTION */
 
 #hosting {
@@ -227,7 +221,7 @@ main {
     border-radius: 25px;
 }
 
-#marseille>div {
+#marseille > div {
     display: grid;
     grid-template-columns: repeat(3, minmax(100, 1fr));
     grid-template-areas:
@@ -251,7 +245,7 @@ main {
     padding: 10px;
 }
 
-#marseille>div a {
+#marseille > div a {
     width: 242px;
     height: 195px;
     display: flex;
@@ -295,14 +289,12 @@ main {
     grid-area: c6;
 }
 
-
-#marseille>a {
+#marseille > a {
     color: black;
     font-weight: 700;
 }
 
 /* Most Popular*/
-
 
 #mp {
     background-color: #f2f2f2;
@@ -369,7 +361,7 @@ main {
     margin-bottom: 30px;
 }
 
-#act>div {
+#act > div {
     max-width: 1340px;
     width: 100%;
     height: auto;
@@ -438,7 +430,6 @@ main {
     grid-area: a6;
 }
 
-
 /* FOOTER */
 
 footer {
@@ -452,7 +443,7 @@ footer h3 {
     margin: 20px 0;
 }
 
-footer>div {
+footer > div {
     flex-direction: column;
 }
 
@@ -463,46 +454,12 @@ footer a {
 }
 
 @media screen and (max-width: 630px) {
-
-    *,
-    html,
-    body {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        font-family: 'Raleway', sans-serif;
-        text-decoration: none;
-        line-height: 1.15;
-    }
-
-    .fa,
-    .fas {
-        font-weight: 900;
-    }
-
-    .ratingIcon {
-        color: #0065fc;
-    }
-
-    .ratingIconGrey {
-        color: #ccc;
-    }
-
-    .title_section {
-        margin-bottom: 30px;
-        font-weight: 700;
-    }
-
-    .textContent {
-        font-size: 15px;
-        color: black;
-        margin-bottom: 5px;
-    }
-
     /* HEADER */
 
     header {
-        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         max-width: 1375px;
         margin: 0 auto;
         height: 80px;
@@ -517,7 +474,7 @@ footer a {
         height: 60px;
     }
 
-    header nav>a {
+    header nav > a {
         display: flex;
         align-items: center;
         height: 100%;
@@ -529,7 +486,7 @@ footer a {
         font-weight: 500;
     }
 
-    header nav>a:hover {
+    header nav > a:hover {
         border-top: 3px solid #0065fc;
         color: #0065fc;
     }
@@ -541,13 +498,17 @@ footer a {
 
     /* MAIN */
 
-
     main {
         max-width: 1360px;
         margin: 0 auto;
     }
 
+    /* MAIN */
 
+    main {
+        max-width: 1360px;
+        margin: 0 auto;
+    }
 
     /* SEARCH SECTION */
 
@@ -641,7 +602,7 @@ footer a {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #DEEBFF;
+        background-color: #deebff;
         border-radius: 50%;
     }
 
@@ -679,9 +640,6 @@ footer a {
         font-size: 16px;
     }
 
-
-
-
     /* HOSTING SECTION */
 
     #hosting {
@@ -697,7 +655,7 @@ footer a {
         background-color: white;
     }
 
-    #marseille>div {
+    #marseille > div {
         display: flex;
         flex-direction: column;
         width: 95vw;
@@ -718,7 +676,7 @@ footer a {
         padding: 5px 10px;
     }
 
-    #marseille>div a {
+    #marseille > div a {
         width: 90%;
         height: 195px;
         display: flex;
@@ -762,14 +720,12 @@ footer a {
         grid-area: c6;
     }
 
-
-    #marseille>a {
+    #marseille > a {
         color: black;
         font-weight: 700;
     }
 
     /* Most Popular*/
-
 
     #mp {
         background-color: #f2f2f2;
@@ -838,7 +794,7 @@ footer a {
         margin: 0 0 30px 30px;
     }
 
-    #act>div {
+    #act > div {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -874,7 +830,6 @@ footer a {
         margin: 0;
         font-weight: 700;
     }
-
 
     /* FOOTER */
 
